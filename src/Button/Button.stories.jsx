@@ -4,7 +4,6 @@ import { Button } from './Button';
 import { Icon } from '../Icon/Icon';
 import { StoryLinkWrapper } from '../LinkWrapper';
 
-
 const CustomButton = styled.button`
   border: 1px solid green;
   background: lightgreen;
@@ -26,6 +25,8 @@ export const AllButtons = {
   name: 'all buttons',
   render: () => (
     <>
+      <ButtonWrapper>Original Button Wrapper</ButtonWrapper>
+      <br />
       <Button appearance='primary'>Primary</Button>
       <Button appearance='secondary'>Secondary</Button>
       <Button appearance='tertiary'>Tertiary</Button>
@@ -326,4 +327,3 @@ export const AnchorWrapper = {
     </div>
   ),
 };
-
