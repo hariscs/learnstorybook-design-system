@@ -53,7 +53,7 @@ const Image = styled.div`
   ${(props) =>
     !props.src &&
     css`
-      background: ${!props.loading && '#37D5D3'};
+      background: ${!props.loading && '#37D5D4'};
     `}
 
   img {
